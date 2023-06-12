@@ -7,20 +7,40 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+struct ContentView: View
+{
+    @State var selectedTab: Int = 0
+    
+    var body: some View
+    {
+        NavigationView
+        {
+            ZStack
+            {
+                VStack
+                {
+                    TabView(selection: $selectedTab)
+                    {
+                        ChatButtonView().tag(0)
+                        EventAppView().tag(1)
+                    }
+                    .gesture(DragGesture().onEnded { value in
+                        if value.translation.height < 0
+                        {
+                            selectedTab = (selectedTab + 1) % 3
+                        }
+                    })
+                }
+            }
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct ContentView_Previews: PreviewProvider
+{
+    static var previews: some View
+    {
+        ContentView().preferredColorScheme(.light)
+        ContentView().preferredColorScheme(.dark)
     }
 }

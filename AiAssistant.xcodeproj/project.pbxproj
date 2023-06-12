@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E15B44492A2E3AD30051F103 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B44482A2E3AD30051F103 /* TestView.swift */; };
+		E15B444B2A30E2DE0051F103 /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15B444A2A30E2DE0051F103 /* EventCard.swift */; };
+		E16642462A37690300377952 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16642452A37690300377952 /* CalendarView.swift */; };
+		E16642492A376C6B00377952 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = E16642482A376C6B00377952 /* FSCalendar */; };
+		E1B6D78E2A27A53D00D1D86F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B6D78D2A27A53D00D1D86F /* Event.swift */; };
 		E1D56C292A1FAEDB007C5722 /* AiAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C282A1FAEDB007C5722 /* AiAssistantApp.swift */; };
 		E1D56C2B2A1FAEDB007C5722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C2A2A1FAEDB007C5722 /* ContentView.swift */; };
 		E1D56C2D2A1FAEDD007C5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D56C2C2A1FAEDD007C5722 /* Assets.xcassets */; };
 		E1D56C302A1FAEDD007C5722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1D56C2F2A1FAEDD007C5722 /* Preview Assets.xcassets */; };
+		E1D56C372A1FB534007C5722 /* ChatButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C362A1FB534007C5722 /* ChatButtonView.swift */; };
+		E1D56C3C2A1FBA7E007C5722 /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1D56C3B2A1FBA7E007C5722 /* OpenAISwift */; };
+		E1D56C3E2A1FBB49007C5722 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C3D2A1FBB49007C5722 /* ViewModel.swift */; };
+		E1D56C402A1FBFF8007C5722 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C3F2A1FBFF8007C5722 /* ChatView.swift */; };
+		E1D56C442A2645AC007C5722 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C432A2645AC007C5722 /* EventView.swift */; };
+		E1D56C482A264BB4007C5722 /* EventAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D56C472A264BB4007C5722 /* EventAppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E15B44482A2E3AD30051F103 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E15B444A2A30E2DE0051F103 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
+		E16642452A37690300377952 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		E1B6D78D2A27A53D00D1D86F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		E1D56C252A1FAEDB007C5722 /* AiAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D56C282A1FAEDB007C5722 /* AiAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiAssistantApp.swift; sourceTree = "<group>"; };
 		E1D56C2A2A1FAEDB007C5722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1D56C2C2A1FAEDD007C5722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1D56C2F2A1FAEDD007C5722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1D56C362A1FB534007C5722 /* ChatButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatButtonView.swift; sourceTree = "<group>"; };
+		E1D56C3D2A1FBB49007C5722 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E1D56C3F2A1FBFF8007C5722 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatView.swift; path = ../ChatView.swift; sourceTree = "<group>"; };
+		E1D56C432A2645AC007C5722 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		E1D56C472A264BB4007C5722 /* EventAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D56C3C2A1FBA7E007C5722 /* OpenAISwift in Frameworks */,
+				E16642492A376C6B00377952 /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +57,8 @@
 		E1D56C1C2A1FAEDB007C5722 = {
 			isa = PBXGroup;
 			children = (
+				E1D56C3D2A1FBB49007C5722 /* ViewModel.swift */,
+				E1B6D78D2A27A53D00D1D86F /* Event.swift */,
 				E1D56C272A1FAEDB007C5722 /* AiAssistant */,
 				E1D56C262A1FAEDB007C5722 /* Products */,
 			);
@@ -53,6 +77,13 @@
 			children = (
 				E1D56C282A1FAEDB007C5722 /* AiAssistantApp.swift */,
 				E1D56C2A2A1FAEDB007C5722 /* ContentView.swift */,
+				E1D56C472A264BB4007C5722 /* EventAppView.swift */,
+				E16642452A37690300377952 /* CalendarView.swift */,
+				E1D56C432A2645AC007C5722 /* EventView.swift */,
+				E15B444A2A30E2DE0051F103 /* EventCard.swift */,
+				E1D56C3F2A1FBFF8007C5722 /* ChatView.swift */,
+				E1D56C362A1FB534007C5722 /* ChatButtonView.swift */,
+				E15B44482A2E3AD30051F103 /* TestView.swift */,
 				E1D56C2C2A1FAEDD007C5722 /* Assets.xcassets */,
 				E1D56C2E2A1FAEDD007C5722 /* Preview Content */,
 			);
@@ -83,6 +114,10 @@
 			dependencies = (
 			);
 			name = AiAssistant;
+			packageProductDependencies = (
+				E1D56C3B2A1FBA7E007C5722 /* OpenAISwift */,
+				E16642482A376C6B00377952 /* FSCalendar */,
+			);
 			productName = AiAssistant;
 			productReference = E1D56C252A1FAEDB007C5722 /* AiAssistant.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +146,10 @@
 				Base,
 			);
 			mainGroup = E1D56C1C2A1FAEDB007C5722;
+			packageReferences = (
+				E1D56C3A2A1FBA7E007C5722 /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+				E16642472A376C6B00377952 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = E1D56C262A1FAEDB007C5722 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +176,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D56C3E2A1FBB49007C5722 /* ViewModel.swift in Sources */,
+				E1B6D78E2A27A53D00D1D86F /* Event.swift in Sources */,
+				E1D56C442A2645AC007C5722 /* EventView.swift in Sources */,
 				E1D56C2B2A1FAEDB007C5722 /* ContentView.swift in Sources */,
+				E15B444B2A30E2DE0051F103 /* EventCard.swift in Sources */,
+				E1D56C482A264BB4007C5722 /* EventAppView.swift in Sources */,
+				E16642462A37690300377952 /* CalendarView.swift in Sources */,
+				E1D56C372A1FB534007C5722 /* ChatButtonView.swift in Sources */,
+				E15B44492A2E3AD30051F103 /* TestView.swift in Sources */,
+				E1D56C402A1FBFF8007C5722 /* ChatView.swift in Sources */,
 				E1D56C292A1FAEDB007C5722 /* AiAssistantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +385,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E16642472A376C6B00377952 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		E1D56C3A2A1FBA7E007C5722 /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E16642482A376C6B00377952 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E16642472A376C6B00377952 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		E1D56C3B2A1FBA7E007C5722 /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1D56C3A2A1FBA7E007C5722 /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E1D56C1D2A1FAEDB007C5722 /* Project object */;
 }

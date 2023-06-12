@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct AiAssistantApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+struct AiAssistantApp: App
+{
+    @StateObject var object = Event()
+    @StateObject var controller = eventAlertController()
+    
+    var body: some Scene
+    {
+        WindowGroup
+        {
+            ContentView().environmentObject(Event()).environmentObject(eventAlertController())
         }
     }
 }
